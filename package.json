@@ -1,0 +1,35 @@
+{
+  "name": "mongo-jas",
+  "version": "0.0.1",
+  "description": "MongoDB store for the JSON API Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node example/server.js",
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardschneider/mongo-jas.git"
+  },
+  "keywords": [
+    "mongoDB",
+    "json",
+    "api",
+    "rest"
+  ],
+  "author": "Richard Schneider <makaretu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardschneider/mongo-jas/issues"
+  },
+  "homepage": "https://github.com/richardschneider/mongo-jas",
+  "dependencies": {
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "joi": "6.7.1",
+    "request": "2.63.0",
+	"jsonapi-server": "https://github.com/richardschneider/jsonapi-server/tarball/master",
+    "mocha": "^2.3.3"
+  }
+}
