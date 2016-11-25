@@ -27,9 +27,9 @@
     "underscore": "1.8.3"
   },
   "devDependencies": {
-    "joi": "6.7.1",
-    "request": "2.63.0",
+    "joi": "10.0.1",
+    "request": "2.79.0",
 	"jsonapi-server": "https://github.com/richardschneider/jsonapi-server/tarball/master",
-    "mocha": "^2.3.3"
+    "mocha": "^3.2.0"
   }
 }
